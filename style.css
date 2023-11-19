@@ -5,3 +5,23 @@
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
 }
+
+
+
+
+@media (max-width: 765px) {
+    .home {
+        width: 100% !important;
+    }
+    .content {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .content-image {
+        width: 100% !important;
+    }
+    .content-text {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+}
